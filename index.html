@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AsterixApp">
+
+<head>
+    <title>Comics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body ng-controller="ComicController">
+    <h1>Comics</h1>
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                <button class="btn btn-danger" ng-click="previous();">previous
+                </button>
+            </td>
+            <td>
+                <img class="big" src="{{comics[comicCount]}}">
+            </td>
+            <td>
+                <button class="btn btn-success" ng-click="next();">next</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+<!-- script -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js "></script>
+
+</html>
