@@ -1,0 +1,10 @@
+button {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.big {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 6.5rem;
+}

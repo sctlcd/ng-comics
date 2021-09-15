@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="AsterixApp">
 
 <head>
     <title>Comics</title>
@@ -7,9 +7,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body ng-controller="ComicController">
+    <h1>Comics</h1>
+    <hr>
 
+    <table>
+        <tr>
+            <td><button class="btn btn-danger">previous</button></td>
+            <td><img class="big" src=""></td>
+            <td><button class="btn btn-success">next</button></td>
+        </tr>
+    </table>
 </body>
+
 <!-- script -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
 <script type="text/javascript" src="assets/js/app.js "></script>
